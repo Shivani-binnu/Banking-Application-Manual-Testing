@@ -1,42 +1,83 @@
-#Banking Application Manual Testing Project
+# Banking Application – Manual Testing Project
 
-#Project Overview:
+## Project Overview
 
-This project demonstrates the manual testing performed on the simulation for banking web application.
-It covers the testing the core functionalites of the banking process such as customer creation, account management and financial transaction processes
-like deposit, withdrawal and fund transfer.
+This project documents manual testing of a web-based banking application using the Guru99 Banking Demo.
 
-#Application Tested:<br>
-Guru99 Banking Demo<br>
-https://demo.guru99.com/V4/
+The project focuses on validating core banking functionalities, identifying defects, and maintaining structured testing documentation.
 
-#Scope of Testing Includes:<br>
-Login<br>
-Create Customer<br>
-Create Account<br>
-Deposit<br>
-Withdrawal<br>
-Funds Transfer<br>
-Statement<br>
-Logout
+## Application Under Test
 
-#Testing Types Includes:<br>
-Functional testing: Verify that all the features works as per the requirements.<br>
-Negative testing: Verify invalid testing inputs and errors.<br>
-Boundary value testing: Verify that the testing numeric fields such as deposit and withdrawal amounts can take only permitted values.
+* Application: Guru99 Banking Demo
+* URL: https://demo.guru99.com/V4/
 
-#Test Deliverables:<br>
-Test Plan<br>
-Test Scenario<br>
-Test Cases<br>
-Bug Report<br>
-Test Summary Report
+## Modules Covered
 
-#Environment:<br>
-MacOS, Windows
+* Login and Logout
+* Customer Creation
+* Account Creation
+* Deposit
+* Withdrawal
+* Fund Transfer
+* Account Statement
 
-#Tools:<br>
-Manual Testing<br>
-Excel<br>
-Github
+## Testing Types
 
+* Functional Testing
+* Negative Testing
+* Boundary Value Testing
+* Regression Testing (additional testing where applicable)
+
+## Testing Deliverables
+
+| Document            | Description                              |
+| ------------------- | ---------------------------------------- |
+| Test Plan           | Testing objectives, scope and approach   |
+| Test Scenarios      | High-level testing conditions            |
+| Test Cases          | Detailed test steps and expected results |
+| Bug Report          | Defect documentation                     |
+| RTM                 | Requirement Traceability Matrix          |
+| Test Summary Report | Testing results and conclusions          |
+
+## Tools Used
+
+* Manual Testing
+* Microsoft Excel
+* Microsoft Word
+* GitHub
+
+## Testing Environment
+
+* Operating System: Windows / macOS
+* Browser: Google Chrome
+* Testing Approach: Manual Testing
+
+## Project Structure
+
+```text
+Banking-Application-Manual-Testing/
+│
+├── Bug_Report.xlsx
+├── RTM.xlsx
+├── Test_Cases.xlsx
+├── Test_Plan.docx
+├── Test_Scenarios.xlsx
+├── Test_Summary_Report.docx
+└── README.md
+```
+
+## Project Reference and Attribution
+
+This repository uses publicly available banking application testing materials as reference documentation.
+
+Original reference project: rachana777 / Banking-Application-Manual-Testing.
+
+The documentation should be reviewed, customized and validated through independent test execution before treating the results as personal testing achievements.
+
+## Learning Outcomes
+
+* Understanding the manual testing lifecycle.
+* Preparing test scenarios and test cases.
+* Understanding defect reporting.
+* Working with Requirement Traceability Matrix.
+* Understanding functional and negative testing.
